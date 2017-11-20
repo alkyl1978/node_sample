@@ -1,0 +1,27 @@
+{
+  "name": "node_sample",
+  "version": "1.0.0",
+  "description": "nodejs sample",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alkyl1978/node_sample.git"
+  },
+  "author": "aleks kylikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alkyl1978/node_sample/issues"
+  },
+  "homepage": "https://github.com/alkyl1978/node_sample#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
